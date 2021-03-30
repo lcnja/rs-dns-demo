@@ -1,0 +1,16 @@
+[package]
+name = "rs_dns_demo"
+version = "0.1.0"
+authors = ["Kim Ko <gaojingan@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+trust-dns-server = "0.20.1"
+trust-dns-proto = "0.20.1"
+trust-dns-client = "0.20.1"
+anyhow = "1.0.39"
+log = "0.4.14"
+futures-util = "0.3.13"
+env_logger = "0.8.3"
+tokio = { version = "1.4.0", features = ["tokio-macros", "full"] }
+clap = "2.33.3"
